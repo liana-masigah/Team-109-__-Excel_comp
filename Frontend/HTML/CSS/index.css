@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
 
 
@@ -40,6 +46,9 @@
 
 .main_upload{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
     margin: 50px 150px;
 }
@@ -112,6 +121,13 @@
   .terms:checked {
     background-color: #015239;
     color: #015239;
+  }
+
+  .center-respo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
 .files {
@@ -389,3 +405,23 @@ footer{
 .footer_one a{
     color: #FFFFFF;
 } */
+
+
+/* mobile resposiveness */
+@media only screen and (max-width: 480px) {
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main_upload{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin: 5px 15px;
+    }​
+}
