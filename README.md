@@ -1,26 +1,46 @@
-# CompareX--- Zuri project Team 109
+# CompareX--- Zuri project Team_109
 
 Excel file content comparism system
 
-Project name - compareX
+Project Name - CompareX
 
-CompareX is a system under development to serve the following functionalities
+CompareX is a file comparison tool under development to serve the following functionalities
 
-- convert csv file to xlsx
+main
+- Convert csv file to xlsx and vice versa
 - Highlight duplicates in a single file
-- remove duplicates and return return a single file
-- remove duplicates and return 2 files
-- highlight duplicates and return two files
+- Remove duplicates and return return a single file
+- Remove duplicates and return 2 files
+- Highlight duplicates and return two files.
+
+main
+View the live demo of the Project [here](https://team-109-excel-comp.vercel.app/)
+
+develop
+
+## Resources
+
+- #### [Figma](https://www.figma.com/file/2ykYhTeaZk7l0jIfNZdKK9/team-109?node-id=336%3A2068)
+
+- #### [Figjam](https://www.figma.com/file/qquWLVSOeBwgDvS1vf5JWa/Team-109?node-id=0%3A1)
+
+- #### [Database Schema](https://drive.google.com/file/d/1eWcCXfDh7m7rA5JLCGW_fAQL_PehkVsl/view)
+
+- #### [Presentation](https://drive.google.com/file/d/1MYBPX_cKadn97FVzHdNSxi-t-s937xqQ/view?usp=sharing)
+
+- #### [Contributions](https://docs.google.com/spreadsheets/d/1dzV8WrCeq6UGmxM1WOFoyGZgR5rHHEzY6x7QxK2dqyc/edit?usp=drivesdk)
+
+- #### [Suggestions Box](https://docs.google.com/document/d/1dvsMw-w4K_LoPm12NRYw2Z-xbglzFKFyQ6gf6764OG8/edit)
 
 ## How to Contribute
 
 - #### Fork your own copy of the Repository
 
-  The first thing you will want to do is fork [this](https://github.com/zuri-training/Team-109-__-Excel_comp) repository. What this mean, is that you get your own copy of this repository. You can then safely make changes to your own copy, and then later, you can submit your changes, and tell the team lead to combine (merge) the changes you made to the main repository. Here is a [tutorial](https://www.howtogeek.com/759384/how-to-fork-a-github-repository/#:~:text=To%20fork%20a%20repo%2C%20log%20in%20to%20your,been%20forked.%20Go%20ahead%20and%20click%20that%20button.) showing you how to do that
+  The first thing you will want to do is fork [this](https://github.com/zuri-training/Team-109-__-Excel_comp) repository. What this means, is that you get your own copy of this repository. You can then safely make changes to your own copy, and then later, you can submit your changes, and tell the team lead to combine (merge) the changes you made to the main repository. Here is a [tutorial](https://www.howtogeek.com/759384/how-to-fork-a-github-repository/#:~:text=To%20fork%20a%20repo%2C%20log%20in%20to%20your,been%20forked.%20Go%20ahead%20and%20click%20that%20button.) showing you how to do that
 
 - #### Clone the Repository on your Local Machine
 
-  The next thing you want to do is clone (make a copy) of the Project on your profile, to your local machine (Laptop, PC, MacBook). To do that,
+  The next thing you want to do is clone (make a copy) of the Project on your profile, to your local machine (Laptop, PC, MacBook). To do that;
 
   - Copy the link of your fork of the repository (the one you forked).
   - Open the folder you want to work on your machine.
@@ -31,7 +51,7 @@ CompareX is a system under development to serve the following functionalities
 
 - #### Configure the upstream
 
-  Now that you have the local copy of compareX. Theres more than one developer contributing to the project, so you have to update your local copy very frequently. Therefore, you need to connect your local copy to the original repository. To do that :
+  Now you have the local copy of compareX. There's more than one developer contributing to the project, so you have to update your local copy very frequently. Therefore, you need to connect your local copy to the original repository. To do that :
 
   - go to your local machine terminal, in the project folder
   - run `git remote add upstream https://github.com/zuri-training/Team-109-__-Excel_comp.git`
@@ -67,5 +87,19 @@ CompareX is a system under development to serve the following functionalities
   - Run `git pull upstream develop`
     > This will check for any changes that have been made to the original repository, it will then bring those changes to your local machine and merge (merge) the changes.
 
-- ### How to get started with the Frontend
-  testing
+- ### How to get started with the Frontend:
+
+  After cloning and pulling the latest changes, from the base folder(the folder created when you cloned)
+  run `cd Frontend/gui`
+  run `npm run dev`
+
+  open your browser and go to `http://localhost:3000/`
+  there you'll be able to view the app and see your changes as you code
+
+- ### How to get started with the Backend:  
+
+After cloning and pulling the latest changes, from the base folder(the folder created when you cloned)
+  run `cd Backend`
+  create a virtual environment(call it env)
+  activate your virtual environment
+  To install all dependencies: run 'pip install - requirement.txt'
